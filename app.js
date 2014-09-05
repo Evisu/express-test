@@ -48,6 +48,7 @@ app.get('/details/:id', function(req, res){
     res.render('details',{
         title:'imooc 详情页',
         movie:{
+            _id:1,
             doctor:'斯皮尔伯格',
             country:'美国',
             title:'X战警',
